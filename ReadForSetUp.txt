@@ -1,0 +1,9 @@
+Database: MySQL
+
+Remember to change database detail:
+
+springBootDemo->src->main->resources->application.properties
+
+Manually create Database and Name of Database:springTest
+insert your own username and password.
+Table will auto create
