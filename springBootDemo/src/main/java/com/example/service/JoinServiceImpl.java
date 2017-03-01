@@ -4,11 +4,13 @@ import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.example.models.MemberBean;
 import com.example.models.MemberDAO;
 
 @Component
+@Transactional
 public class JoinServiceImpl implements JoinService {
 
 	@Autowired
